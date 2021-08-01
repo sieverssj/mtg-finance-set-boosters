@@ -21,6 +21,12 @@ As of this writing some slots are ignored (e.g. signed vs unsigned art card or f
 simplify the result set. If you care about the variability in these slots you can certainly compute them, but it will
 mean the output will be significantly larger.
 
+Note: This methodology assumes that each slot in the set booster box is independent, except for where the slots are
+given with combined probability. For instance, the "Welcome - Connected" slots are given as combined percentages, as
+this is how it's presented in the source info from Wizards. But what we assume here is that the odds of receiving a
+certain combination of commons and uncommons in the "Welcome - Connected" slots is totally independent of the
+probability of receiving certain options in other slots.
+
 ## Reading the Output
 
 Each row in the output represents a particular combination of rarities of cards (plus the list) that one can expect to
