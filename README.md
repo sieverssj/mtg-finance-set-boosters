@@ -38,7 +38,7 @@ By contrast consider the last line:
 `"4 Rares, 7 Uncommons, 0 Commons, 1 The List",4,7,0,1,0.000006`
 
 We can expect to receive 4 rares, 7 uncommons, 0 commons, and 1 card from the list only ~0.0006% of the time or 1 in
-every 55 set booster boxes. :)
+every 5500 set booster boxes. :)
 
 ### Example Output
 ```
